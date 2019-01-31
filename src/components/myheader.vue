@@ -21,7 +21,7 @@
   </nav>
 </template>
 
-<style>
+<style  scoped>
   .navbar {
     height: 60px;
   }

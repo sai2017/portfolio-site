@@ -38,7 +38,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .card {
   display: grid;
   grid-template-columns: repeat(3, calc(33.333% - 10px));
