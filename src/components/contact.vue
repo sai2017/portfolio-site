@@ -7,7 +7,7 @@
   </section>
 </template>
 
-<style  scoped>
+<style scoped>
 h1 {
   margin-top: 20px;
 }

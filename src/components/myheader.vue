@@ -21,7 +21,7 @@
   </nav>
 </template>
 
-<style  scoped>
+<style scoped>
   .navbar {
     height: 60px;
   }
@@ -37,10 +37,5 @@
     border-radius: 5px; /*線の角に丸みを付ける*/
     letter-spacing: 3px; /*文字と文字の間隔をあける*/
     font-weight:400; /*文字の太さの変更*/
-  }
-
-  .nav-link {
-    /* float: right; */
-    /* text-align: right; */
   }
 </style>

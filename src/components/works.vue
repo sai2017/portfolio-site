@@ -44,38 +44,6 @@ export default {
   grid-template-columns: repeat(3, calc(33.333% - 10px));
   grid-gap: 15px 15px;
 }
-/* .card-img {
-  border-radius: 5px 5px 0 0;
-  max-width: 100%;
-  height: auto;
-}
-.card-content {
-  padding: 20px;
-}
-.card-title {
-  font-size: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-  color: #333;
-}
-.card-text {
-  color: #777;
-  font-size: 14px;
-  line-height: 1.5;
-}
-.card-link {
-  text-align: center;
-  border-top: 1px solid #eee;
-  padding: 20px;
-}
-.card-link a {
-  text-decoration: none;
-  color: #0bd;
-  margin: 0 10px;
-}
-.card-link a:hover {
-  color: #0090aa;
-} */
 
 h1 {
   margin-top: 20px;

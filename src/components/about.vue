@@ -1,21 +1,10 @@
 <template>
   <section>
     <h1>About</h1>
-    <!-- <p>佐々木皓晃</p> -->
-    <!-- <div class="card"> -->
-      <!-- <div class="card1"> -->
-      <!-- <div class="name">
-        <p>大阪にてフリーランスのWeb制作をしております。</p>
-        <p>2006年よりアルバイトにて制作を始める。</p>
-        <p>2007年から5年間大阪市内の制作会社でデザイン・コーディングなどの業務を行う。</p>
-        <p>2012年よりフリーランスへ転向。</p>
-      </div> -->
       <header>
           <a href="#contact" class="button-contact"><i class="fa fa-envelope-o" aria-label="お問い合わせ"></i></a>
           <div class="profile">
             <h1 class="site-title abel uppercase text-center">Web Engineer <span>Sai</span></h1>
-
-            <!-- 追加  -->
             <img src="http://drive.google.com/uc?export=view&id=1bDuXj6FPJmr0Uh7JVl_UCAZHJHTzOdBG" alt="プロフィール写真" width="140" height="140" class="block-center profile-icon">
             <p class="introduction">
               東京にてWEBエンジニアとして活動しております、saiです。
@@ -28,7 +17,7 @@
   </section>
 </template>
 
-<style  scoped>
+<style scoped>
 h1 {
   margin-top: 20px;
 }
@@ -39,8 +28,6 @@ h3 {
 
 .name {
   padding-top: 50px;
-  /* text-align: center; */
-  /* margin-right: 30px; */
 }
 
 .block-center {
