@@ -1,10 +1,7 @@
 <template>
   <div id="app">
     <myheader></myheader>
-    <!-- <img src="./assets/logo.png"> -->
-    <!-- <img src="./assets/white.png"> -->
     <router-view/>
-    <!-- <button class="btn btn-primary">test</button> -->
   </div>
 </template>
 
@@ -15,7 +12,7 @@ export default {
   name: 'App',
   components: {
     myheader
-  },
+  }
 }
 </script>
 

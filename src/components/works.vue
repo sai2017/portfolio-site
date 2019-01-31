@@ -2,14 +2,14 @@
   <section>
     <h1>Works</h1>
     <div class="card">
-      <div v-for="work in works">
+      <div v-for="work in works" :key="work.id">
         <div class="card1">
           <img :src="work.img_url" class="image1">
           <p class="title1">{{ work.title }}</p>
           <p class="content1">{{ work.description }}</p>
           <p>製作期間：{{ work.period }}</p>
           <ul class="tag">
-            <li v-for="lang in work.languages">
+            <li v-for="lang in work.languages" :key="lang.id">
               <div class="tag-tag">
                 <span>{{ lang.language }}</span>
               </div>
@@ -28,14 +28,14 @@
 </template>
 
 <script>
-  import works from './../../static/works.json'
-  export default {
-    data () {
-      return {
-        works: works
-      }
+import works from './../../static/works.json'
+export default {
+  data () {
+    return {
+      works: works
     }
   }
+}
 </script>
 
 <style>
@@ -104,7 +104,6 @@ h1 {
     color: #666;
 }
 
-
 .tag {
   margin: 0;
   padding: 0;
@@ -140,18 +139,18 @@ h1 {
 
 /* 詳細ボタン */
 .cp_btn {
-	display: block;
-	padding: 0.8em;
-	text-align: center;
-	text-decoration: none;
-	color: #EC407A;
-	border: 2px solid #EC407A;
-	border-radius: 3px;
-	transition: .4s;
+  display: block;
+  padding: 0.8em;
+  text-align: center;
+  text-decoration: none;
+  color: #EC407A;
+  border: 2px solid #EC407A;
+  border-radius: 3px;
+  transition: .4s;
 }
 .cp_btn:hover {
-	background: #EC407A;
-	color: #fff;
+  background: #EC407A;
+  color: #fff;
 }
 
 </style>

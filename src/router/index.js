@@ -1,8 +1,8 @@
+/* eslint-disable import/first */
 import Vue from 'vue'
-import BootstrapVue from 'bootstrap-vue'
+// import BootstrapVue from 'bootstrap-vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
-// import header from '@/components/header'
 import about from '@/components/about'
 import works from '@/components/works'
 import contact from '@/components/contact'
@@ -13,6 +13,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
