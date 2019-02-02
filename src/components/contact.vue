@@ -27,4 +27,12 @@ h1 {
     padding: 0;
 }
 
+@media screen and ( max-width:500px )
+{
+  .box11{
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+}
+
 </style>

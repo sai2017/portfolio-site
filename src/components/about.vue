@@ -56,11 +56,12 @@ header p
   text-align: left;
 }
 
-.profile-box {
-  text-align: left;
-  margin-left: 400px;
-  margin-right: 100px;
-  font-size: 20px;
+@media screen and ( max-width:500px )
+{
+  .introduction {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 }
 
 </style>

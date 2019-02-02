@@ -121,4 +121,17 @@ h1 {
   color: #fff;
 }
 
+@media screen and ( max-width:500px )
+{
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card1 {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}
+
 </style>
