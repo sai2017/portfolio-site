@@ -16,10 +16,10 @@
             </li>
           </ul>
           <div class="card-link" v-if="work.slug != nil">
-            <a :href="work.slug" class="cp_btn">ウェブサイトを見る</a>
+            <a :href="work.slug" class="cp_btn" target="_blank">ウェブサイトを見る</a>
           </div>
           <div v-if="work.github_url != nil">
-            <a :href="work.github_url" class="cp_btn">Githubを見る</a>
+            <a :href="work.github_url" class="cp_btn" target="_blank">Githubを見る</a>
           </div>
         </div>
       </div>
