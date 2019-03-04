@@ -20,6 +20,8 @@
 <style scoped>
 h1 {
   margin-top: 20px;
+  font-weight: bold;
+  font-size: 40px;
 }
 
 h3 {
