@@ -9,8 +9,8 @@ import contact from '@/components/contact'
 
 Vue.use(Router)
 
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+// import 'bootstrap/dist/css/bootstrap.css'
+// import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 export default new Router({
   mode: 'history',
