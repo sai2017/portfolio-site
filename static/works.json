@@ -1,5 +1,79 @@
 [
   {
+    "title": "FUNDBOARD",
+    "description": "株式会社ケップルにて、IRプラットフォーム『FUNDBOARD』のフロントエンド開発。JavaScript（ReactJS, TypeScript）による、SPAの設計・開発・テスト",
+    "period": "2019/6~2019/11",
+    "languages": [
+      {
+        "language": "TypeScript"
+      },
+      {
+        "language": "React"
+      },
+      {
+        "language": "MobX"
+      },
+      {
+        "language": "AWS"
+      },
+      {
+        "language": "AdobeXD"
+      }
+    ],
+    "img_url": "http://drive.google.com/uc?export=view&id=1yDCVS8G7UOXT2nCxDHAsiyc6O1kSLEFG",
+    "slug": "https://fund-board.com/"
+  },
+  {
+    "title": "新規プラットフォームの開発",
+    "description": "株式会社ケップルにて、新規プラットフォームのフロントエンド開発。Railsアプリのフロントエンドの設計・開発を担当しました(リリース未定)",
+    "period": "2019/8~2019/11",
+    "languages": [
+      {
+        "language": "TypeScript"
+      },
+      {
+        "language": "React"
+      },
+      {
+        "language": "styled-components"
+      },
+      {
+        "language": "React Hooks"
+      },
+      {
+        "language": "AdobeXD"
+      },
+      {
+        "language": "Ruby On Rails"
+      },
+      {
+        "language": "AWS"
+      }
+    ],
+    "img_url": "http://drive.google.com/uc?export=view&id=1bKGxTqWUOgxcJVT1uFaACiq-pgw4VAcM",
+    "slug": "https://fund-board.com/pre_regist/"
+  },
+  {
+    "title": "新規プラットフォームのLPコーディング",
+    "description": "株式会社ケップルにて、新規プラットフォームのLPコーディングを担当。デザイナーやマーケターとコミュニケーションを取り、デザインやmetaタグを修正しながらコーディングを進めた(リリース未定)",
+    "period": "2019/11~2019/11",
+    "languages": [
+      {
+        "language": "HTML"
+      },
+      {
+        "language": "CSS(SCSS)"
+      },
+      {
+        "language": "Gulp"
+      },
+      {
+        "language": "jQuery"
+      }
+    ],
+    "img_url": "http://drive.google.com/uc?export=view&id=1bKGxTqWUOgxcJVT1uFaACiq-pgw4VAcM"
+  },
+  {
     "title": "READY TO FASHION",
     "description": "ファッション業界特化の求人サイト「READY TO FASHION」の開発。Railsを使用したサーバーサイドの開発を担当してました。",
     "period": "2018/9~2018/11",
@@ -137,7 +211,7 @@
       }
     ],
     "img_url": "http://drive.google.com/uc?export=view&id=17OvF5MBdDOuMtQ_FYf92qLcn6Z9r3RNa",
-    "slug": "https://mentube.herokuapp.com/"
+    "github_url": "https://github.com/sai2017/mentube"
   },
   {
     "title": "ぐる飲み！",
@@ -161,6 +235,6 @@
       }
     ],
     "img_url": "http://drive.google.com/uc?export=view&id=1EBD5vc-d-KbvfuysMpoUHU0iIN00BkDv",
-    "slug": "https://gurunomi.herokuapp.com/"
+    "github_url": "https://github.com/sai2017/gurunomi"
   }
 ]

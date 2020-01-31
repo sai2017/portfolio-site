@@ -7,10 +7,11 @@
             <h1 class="site-title abel uppercase text-center">Web Engineer <span>Sai</span></h1>
             <img src="http://drive.google.com/uc?export=view&id=1bDuXj6FPJmr0Uh7JVl_UCAZHJHTzOdBG" alt="プロフィール写真" width="140" height="140" class="block-center profile-icon">
             <p class="introduction">
-              東京にてWEBエンジニアとして活動しております、saiです。
-              これまで「カードゲームショップ向けの求人サイト開発」、「グルメサイトSARAHの開発」、
-              「ファッション業界特化の求人サイト「READY TO FASHION」の開発」の3つの実務経験があります。
-              すべての現場でRailsを使用したサーバーサイドの開発を担当しておりました。
+              東京にてWEBエンジニアとして活動しております、saiです。<br>
+              2017年にプログラミングスクールを卒業後、サーバーサイドの開発からキャリアをスタートさせました。<br>
+              「カードゲームショップ向けの求人サイト開発」、「グルメサイトSARAHの開発」、
+              「ファッション業界特化の求人サイトREADY TO FASHIONの開発」ではRailsを使用したサーバーサイドの開発を担当していました。<br>
+              直近では株式会社ケップルのフロントエンドエンジニア（React）として、IRプラットフォーム『FUNDBOARD』の開発や、新規プラットフォームの開発をしていました。
             </p>
           </div>
       </header>
